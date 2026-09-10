@@ -1,5 +1,5 @@
 site_name: Портфолио технического писателя
-site_description: Как я создаю документацию: от инструкций до стайлгайдов. Портфолио с примерами работ
+site_description: "Как я создаю документацию: от инструкций до стайлгайдов. Портфолио с примерами работ."
 theme:
   name: material
   language: ru
@@ -21,10 +21,11 @@ theme:
 nav:
   - Главная: index.md
   - Обо мне: about.md
+  - Принципы моей работы: how-i-work.md
   - Проверка AML:
-    - AML-check: aml-check.md
-    - Интерпретация результатов проверки: risk-interpretation.md
-    - Уровни результатов проверки: risk-levels.md
+    - AML-check: aml/aml-check.md
+    - Интерпретация результатов проверки: aml/risk-interpretation.md
+    - Уровни результатов проверки: aml/risk-levels.md
   - Сервис уведомлений:
     - О проекте: notification-service/index.md
     - Отправка email: notification-service/send-email-endpoint.md

@@ -26,6 +26,10 @@ nav:
     - AML-check: aml/aml-check.md
     - Интерпретация результатов проверки: aml/risk-interpretation.md
     - Уровни результатов проверки: aml/risk-levels.md
+  - SQL:
+    - Введение: sql/index.md
+    - Основы: sql/basics.md
+    - Примеры запросов: sql/examples.md
   - Сервис уведомлений:
     - О проекте: notification-service/index.md
     - Отправка email: notification-service/send-email-endpoint.md
